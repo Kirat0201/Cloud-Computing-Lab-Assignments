@@ -1,0 +1,26 @@
+Git commands
+
+A.configure Git
+git config --global user.name ""
+git config --global user.email ""
+
+B.create repository 
+mkdir new-repo
+cd new-repo
+git init
+
+C.add files and commit
+git add . 
+git commit -m "add file"
+
+D.branching
+git checkout -b new-branch 
+git branch
+
+E.merging/pull requests
+git push origin new-branch
+ 
+
+F.github integration 
+git remote add origin ____
+git push -u origin main
